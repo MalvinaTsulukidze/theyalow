@@ -282,11 +282,9 @@ section.content-3 {
 }
 
 .yellow-content {
-    
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .box {
@@ -318,8 +316,6 @@ section.content-3 {
     font-weight: 300;
     justify-self: center;
     display: flex;
-    
-    
 }
 
 .yellowBox p {
@@ -330,8 +326,11 @@ section.content-3 {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    
+    opacity: 0.5;
 }
+a:hover {
+    opacity: 1.0;
+  }
 
 .yellowBox img {
     align-self: center;
@@ -643,7 +642,9 @@ section.content-3 {
         -moz-border-radius: 0px 15px 15px 0px;
         -webkit-border-radius: 0px 15px 15px 0px;
     }
-
+    .item1{
+        display: none;
+        }
 
     .box:nth-child(4) .input {
         margin-left: 10px;
@@ -773,19 +774,3 @@ section.content-3 {
         height: 31px;
     }
 }
-
-.bullet{
-    opacity: 0.8;
-}
-.bullet:hover {
-    opacity: 2.0;
-  }
-/* 
-@keyframes spinAround {
-	from {
-		transform: rotate(0deg)
-	}
-	to {
-		transform: rotate(360deg);
-	}
-} */
