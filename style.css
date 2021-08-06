@@ -30,7 +30,10 @@
     text-align: center;
 
 }
-
+h3{
+    position: absolute;
+    margin-left: 200px;
+}
 nav ul {
     display: flex;
     align-items: center;
@@ -168,6 +171,10 @@ button.play-button  {
 
 button.play-button :hover {
     cursor: pointer;
+    opacity: 0.3;
+}
+button2{
+    opacity: 0.3;
 }
 #video-controls {
     bottom: 100px;
@@ -211,7 +218,7 @@ progress::-webkit-progress-value {
 }
 
 section.content-2 {
-    background-image: url(../assets/images/whiteBackground.png);
+    background-image: url(assets/images/whiteBackground.png);
     -webkit-box-shadow: 0px -3px 9px -1px rgba(0,0,0,0.65),
     0px 3px 9px -1px rgba(0,0,0,0.75);
     -moz-box-shadow:    0px -3px 9px -1px rgba(0,0,0,0.65),
@@ -526,7 +533,9 @@ a:hover {
     .header-text p {
         display: none;
     }
-
+    h3{
+        display: none;
+    }
     button.btn {
         display: none;
     }
